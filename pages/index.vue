@@ -4,7 +4,7 @@
     <section class="grid grid-cols-1 md:flex md:mt-4">
         <!-- left section -->
         <div class="p-4 md:p-0 md:w-2/3">
-            <img class="rounded-lg" src="/front_img.png" alt="">
+            <img class="rounded-lg" src="/pi_banking.jpg" alt="">
         </div>
         <!-- right section -->
         <div class="md:w-1/3">
