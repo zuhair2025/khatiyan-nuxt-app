@@ -45,9 +45,8 @@
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/khatiyan_form">খতিয়ানের তথ্য অনুসন্ধান</NuxtLink>
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">ই-সেবা</NuxtLink>
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/contact">যোগাযোগ</NuxtLink>
-            <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">লগিন</NuxtLink>
             <UDropdown :items="login" :popper="{ placement: 'bottom-start' }">
-              <UButton class="hover:bg-[#5E6B2B] hover:text-white hover:px-2 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" color="white" label="লগিন" trailing-icon="i-heroicons-chevron-down-20-solid" />
+              <UButton class="bg-[#5E6B2B] text-white px-2 hover:bg-[#5E6B2B] hover:text-white pr-1" color="white" label="লগিন" trailing-icon="i-heroicons-chevron-down-20-solid" />
             </UDropdown>
         </ul>
     </div>
@@ -63,5 +62,5 @@ const items = [
     label: 'মৌজা তালিকা',
   }]
 ]
-const login = [[{label: 'নাগরিক'}],[{label: 'অফিস',to:'offices'}]]
+const login = [[{label: 'নাগরিক',to:'login-civil'}],[{label: 'অফিস',to:'login-office'}]]
 </script>
