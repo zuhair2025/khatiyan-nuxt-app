@@ -95,18 +95,18 @@
     </section>
     <!-- Service Section -->
     <section class="mt-4">
-        <div class="flex flex-col md:grid md:grid-cols-4 mx-4 gap-2">
-        <div class="flex border border-gray-300 rounded-md p-4 justify-between">
+        <div class="flex flex-col md:grid md:grid-cols-3 mx-4 gap-2">
+        <!-- <div class="flex border border-gray-300 rounded-md p-4 justify-between">
             <div class="flex flex-col gap-2">
             <p class="text-sm">মৌজা তালিকা</p>
             <a href="" class="text-xs w-16 py-1 px-0 rounded-md text-center bg-[#FFC107]">বিস্তারিত</a>
             </div>
             <img class="w-12 h-12" src="/office-icon.png" alt="">
-        </div>
+        </div> -->
         <div class="flex border border-gray-300 rounded-md p-4 justify-between">
             <div class="flex flex-col gap-2">
-            <p class="text-sm">খতিয়ান তথ্য অনুসন্ধান</p>
-            <NuxtLink to="khatiyan_form" class="text-xs w-16 py-1 px-0 rounded-md text-center bg-[#FFC107]">বিস্তারিত</NuxtLink>
+            <p class="text-sm">চাকরির জন্য আবেদন</p>
+            <NuxtLink to="/" class="text-xs w-16 py-1 px-0 rounded-md text-center bg-[#FFC107]">বিস্তারিত</NuxtLink>
             </div>
             <img class="w-12 h-12" src="/search3.png" alt="">
         </div>
