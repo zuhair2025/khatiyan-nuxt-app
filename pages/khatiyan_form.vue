@@ -40,6 +40,10 @@
                         <p>মাতার নাম:</p> 
                         <UInput />
                     </div>
+                    <div class="grid md:grid-cols-2 grid-cols-1">
+                        <p>Nid নং:</p> 
+                        <UInput />
+                    </div>
                     <div class="grid md:md:grid-cols-2 grid-cols-1">
                         <p>জন্ম তা‌রিখ:</p> 
                         <USelect v-model="year" :options="years" />
