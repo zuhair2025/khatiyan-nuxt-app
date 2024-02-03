@@ -46,6 +46,12 @@
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">ই-সেবা</NuxtLink>
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/contact">যোগাযোগ</NuxtLink>
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">লগিন</NuxtLink>
+            <UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
+              <ul>
+                <li>1</li>
+                <li>2</li>
+              </ul>
+            </UDropdown>
         </ul>
     </div>
 </template>
