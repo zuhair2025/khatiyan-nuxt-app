@@ -17,24 +17,77 @@
             <div class="mx-4 mt-8">
             <p class="bg-[#053B69] text-white text-center py-2 rounded-lg">এক নজরে জোনভিত্তিক মৌজা তালিকা</p>
             <div class="grid grid-cols-3 gap-x-8">
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ঢাকা</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">খুলনা</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">চট্টগ্রাম</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">রাজশাহী</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">সিলেট</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">বরিশাল</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">রংপুর</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ময়মনসিংহ</a>
                 <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">কুমিল্লা</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">দিনাজপুর</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">যশোর</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নোয়াখালী</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">বগুড়া</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ফরিদপুর</a>
-                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">জামালপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ফেনী</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ব্রাহ্মণবাড়িয়া</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">রাঙ্গামাটি</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নোয়াখালী</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">চাঁদপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">লক্ষ্মীপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">চট্টগ্রাম</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">কক্সবাজার</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">খাগড়াছড়ি</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">বান্দরবান</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">সিরাজগঞ্জ</a>
                 <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">পাবনা</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">বগুড়া</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">রাজশাহী</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নাটোর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">জয়পুরহাট</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">চাঁপাইনবাবগঞ্জ</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নওগাঁ</a>
+
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">যশোর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">সাতক্ষীরা</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">মেহেরপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নড়াইল</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">চুয়াডাঙ্গা</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">কুষ্টিয়া</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">মাগুরা</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">খুলনা</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">বাগেরহাট</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ঝিনাইদহ</a>
+
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ঝালকাঠি</a>
                 <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">পটুয়াখালী</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">পিরোজপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">বরিশাল</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ভোলা</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">বরগুনা</a>
+
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">সিলেট</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">মৌলভীবাজার</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">হবিগঞ্জ</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">সুনামগঞ্জ</a>
+
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নরসিংদী</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">গাজীপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">শরীয়তপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নারায়ণগঞ্জ</a>
                 <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">টাঙ্গাইল</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">কিশোরগঞ্জ</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">মানিকগঞ্জ</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ঢাকা</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">মুন্সিগঞ্জ</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">রাজবাড়ী</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">মাদারীপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">গোপালগঞ্জ</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ফরিদপুর</a>
+
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">পঞ্চগড়</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">দিনাজপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">লালমনিরহাট</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নীলফামারী</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">গাইবান্ধা</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ঠাকুরগাঁও</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">রংপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">কুড়িগ্রাম</a>
+
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">শেরপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">ময়মনসিংহ</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">জামালপুর</a>
+                <a href="#" class="bg-[#305477] text-white text-center rounded-lg mt-4 p-1">নেত্রকোণা</a>
+
             </div>
             </div>
         </div>

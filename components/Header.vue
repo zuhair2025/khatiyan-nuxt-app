@@ -46,6 +46,9 @@
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">ই-সেবা</NuxtLink>
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/contact">যোগাযোগ</NuxtLink>
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">লগিন</NuxtLink>
+            <UDropdown :items="login" :popper="{ placement: 'bottom-start' }">
+              <UButton class="hover:bg-[#5E6B2B] hover:text-white hover:px-2 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" color="white" label="লগিন" trailing-icon="i-heroicons-chevron-down-20-solid" />
+            </UDropdown>
         </ul>
     </div>
 </template>
@@ -54,9 +57,11 @@
 const items = [
   [{
     label: 'অফিস সমূহ',
+    to: 'offices'
   }],
   [{
     label: 'মৌজা তালিকা',
   }]
 ]
+const login = [[{label: 'নাগরিক'}],[{label: 'অফিস',to:'offices'}]]
 </script>
