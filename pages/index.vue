@@ -95,7 +95,7 @@
     </section>
     <!-- Service Section -->
     <section class="mt-4">
-        <div class="flex flex-col md:grid md:grid-cols-3 mx-4 gap-2">
+        <div class="flex flex-col md:grid md:grid-cols-2 mx-4 gap-2">
         <!-- <div class="flex border border-gray-300 rounded-md p-4 justify-between">
             <div class="flex flex-col gap-2">
             <p class="text-sm">মৌজা তালিকা</p>
@@ -106,20 +106,20 @@
         <div class="flex border border-gray-300 rounded-md p-4 justify-between">
             <div class="flex flex-col gap-2">
             <p class="text-sm">চাকরির জন্য আবেদন</p>
-            <NuxtLink to="/" class="text-xs w-16 py-1 px-0 rounded-md text-center bg-[#FFC107]">বিস্তারিত</NuxtLink>
+            <NuxtLink to="/jobapplication" class="text-xs w-16 py-1 px-0 rounded-md text-center bg-[#FFC107]">বিস্তারিত</NuxtLink>
             </div>
             <img class="w-12 h-12" src="/search3.png" alt="">
         </div>
-        <div class="flex border border-gray-300 rounded-md p-4 justify-between">
+        <!-- <div class="flex border border-gray-300 rounded-md p-4 justify-between">
             <div class="flex flex-col gap-2">
             <p class="text-sm">ম্যাপ প্রদর্শন</p>
             <a href="" class="text-xs w-16 py-1 px-0 rounded-md text-center bg-[#FFC107]">বিস্তারিত</a>
             </div>
             <img class="w-12 h-12" src="/mapicon.png" alt="">
-        </div>
+        </div> -->
         <div class="flex border border-gray-300 rounded-md p-4 justify-between">
             <div class="flex flex-col gap-2">
-            <p class="text-sm">ই-সেবা</p>
+            <p class="text-sm">হেল্প লাইন</p>
             <a href="" class="text-xs w-16 py-1 px-0 rounded-md text-center bg-[#FFC107]">বিস্তারিত</a>
             </div>
             <img class="w-12 h-12" src="/eseba22.png" alt="">
@@ -127,13 +127,25 @@
         </div>
     </section>
     <!-- Slider Section -->
-    <section class="my-4">
-        <UCarousel v-slot="{ item }" :items="items" :ui="{ item: 'basis-full' }" class="rounded-lg overflow-hidden" arrows>
-           <img src="/slider1.jpg" alt="">
-           <img src="/slider2.gif" alt="">
-           <img src="/slider3.gif" alt="">
-        </UCarousel>
-       
+    <section class="my-4 mx-4">
+        <swiper
+    
+    :spaceBetween="30"
+    :centeredSlides="true"
+    :autoplay="{
+      delay: 2500,
+      disableOnInteraction: false,
+    }"
+    :pagination="{
+      clickable: true,
+    }"
+    :modules="modules"
+    class="mySwiper rounded-lg overflow-hidden"
+  >
+    <swiper-slide> <img src="/slider1.jpg" alt="Slider One" /> </swiper-slide>
+    <swiper-slide> <img src="/slider2.gif" alt="Slider One" /> </swiper-slide>
+    <swiper-slide> <img src="/slider3.gif" alt="Slider One" /> </swiper-slide>
+  </swiper>
     </section>
     </MainLayout>
 </template>
@@ -141,12 +153,27 @@
 <script setup>
 import MainLayout from '~/layouts/MainLayout.vue';
 
-const items = [
-  'https://picsum.photos/1920/1080?random=1',
-  'https://picsum.photos/1920/1080?random=2',
-  'https://picsum.photos/1920/1080?random=3',
-  'https://picsum.photos/1920/1080?random=4',
-  'https://picsum.photos/1920/1080?random=5',
-  'https://picsum.photos/1920/1080?random=6'
-]
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { Autoplay, Pagination } from 'swiper/modules';
+
+// Define Swiper modules for use in the component
+const modules = [Autoplay, Pagination];
+
+// Define components that will be used within this setup
+defineExpose({
+  components: {
+    Swiper,
+    SwiperSlide,
+  },
+  modules,
+});
 </script>

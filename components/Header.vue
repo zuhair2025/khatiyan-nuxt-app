@@ -34,16 +34,16 @@
     <div class="px-4 py-4 bg-[#FAFFFE]">
         <ul class="flex flex-col md:flex-row gap-4 text-[#5E6B2B] text-xl border-b border-green-600 pb-2">
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md" to="/"> <UIcon name="i-heroicons-home" /> </NuxtLink>
-            <UDropdown :items="items" mode="hover" :popper="{ placement: 'bottom-start' }">
-                <ULink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md">
+            <!-- <UDropdown :items="items" mode="hover" :popper="{ placement: 'bottom-start' }"> -->
+                <!-- <ULink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md">
                     সাধারণ তথ্য
-                </ULink>
+                </ULink> -->
                 <!-- <UButton color="white" label="সাধারণ তথ্য" trailing-icon="i-heroicons-chevron-down-20-solid" /> -->
-            </UDropdown>
+            <!-- </UDropdown> -->
             <!-- <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md" to="/">সাধারণ তথ্য</NuxtLink> -->
-            <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">ম্যাপ প্রদর্শন</NuxtLink>
-            <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/khatiyan_form">খতিয়ানের তথ্য অনুসন্ধান</NuxtLink>
-            <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">ই-সেবা</NuxtLink>
+            <!-- <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">ম্যাপ প্রদর্শন</NuxtLink> -->
+            <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/jobapplication">চাক‌রির আবেদন</NuxtLink>
+            <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/">হেল্প লাইন</NuxtLink>
             <NuxtLink class="hover:bg-[#5E6B2B] hover:text-white hover:p-1 hover:rounded-md border-r border-gray-300 pr-1 border-dotted" to="/contact">যোগাযোগ</NuxtLink>
             <UDropdown :items="login" :popper="{ placement: 'bottom-start' }">
               <UButton class="bg-[#5E6B2B] text-white px-2 hover:bg-[#5E6B2B] hover:text-white pr-1" color="white" label="লগিন" trailing-icon="i-heroicons-chevron-down-20-solid" />
