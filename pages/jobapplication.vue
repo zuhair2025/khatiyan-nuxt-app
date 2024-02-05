@@ -64,10 +64,6 @@
                 <!-- column 3 -->
                 <div class="flex flex-col gap-4">
                     <div class="grid md:grid-cols-2 grid-cols-1">
-                        <p>ভোটার আইডি নং:</p> 
-                       <UInput />
-                    </div>
-                    <div class="grid md:grid-cols-2 grid-cols-1">
                         <p>ইমেইল:</p> 
                        <UInput />
                     </div>
